@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="classes">
+
+  <parameter name="browser"  value="ff"/>  
+  <test name="Test">
+      <classes>
+      <class name="testNG.LinkDemoTestng"/>
+      <class name="testNG.WebtableDemoTestng"/>
+      <class name="testNG.AjaxDemoTestng"/>
+     </classes>
+
+  </test>
+  
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="tests">
+
+  <parameter name="browser"  value="FF"/>  
+  <test name="Test">
+      <classes>
+      <class name="testNG.FrameDemo"/>
+      <class name="testNG.Runamafi"/>
+      <class name="testNG.FacebookLogin"/>
+     </classes>
+
+  </test>
+  
+</suite>
